@@ -1,0 +1,34 @@
+@media screen and (max-width:576px) {
+}
+@media screen and (min-width:576px)  {
+    .res-sm-two-col {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+}
+@media screen and (max-width:380px) {
+
+}
+@media screen and (min-width:330px) {
+
+}
+@media screen and (min-width:400px) {
+
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+
+}
+@media screen and (min-width:830px) and (max-width:992px) {    
+}
+
+@media (max-width:992px) {
+    .loction-popup-img {
+        max-height: 50rem !important;
+    }
+}
+
+@media (min-width:992px) {
+    .res-two-col {
+        grid-template-columns: repeat(2 , 1fr);
+    } 
+}
