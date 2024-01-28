@@ -167,7 +167,7 @@ Global Styles
 }
 
 body {
-font-family: 'Roboto',sans-serif;
+  font-family: monospace,monospace;
   font-size: var(--fs-body);
   color: var(--clr-primary-400);
   font-size: 1rem;
@@ -360,6 +360,7 @@ footer .footer-bottom-link {
 }
 .loction-box.active {
   top: 50%;
+  z-index: 10;
 }
 .img-popup {
   height:clamp( 4rem,4vw ,5rem );
@@ -515,6 +516,7 @@ font-family: "JosefinSans" sans-serif;
 }
 /* end blog section  */
 .fqo-box {
+  cursor: pointer;
   .res-for-fqp-box {
     display: none;
   }
