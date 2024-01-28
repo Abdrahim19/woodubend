@@ -26,7 +26,7 @@ loction_button.addEventListener('click' , () => {
 })
 close.addEventListener('click' , () => {
     loction_box.classList.remove('active');
-    shadow.toggleAttribute('hidden');
+    shadow.removeAttribute('hidden');
 })
 
 policie_link.addEventListener('click' , () => {
