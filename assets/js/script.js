@@ -65,8 +65,12 @@ close_cart.addEventListener('click' , () => {
 
 // start fqo logic section 
 
-const fqo_box = document.querySelector('.fqo-box');
-fqo_box.addEventListener('click' , () => {
+const fqo_boxes = document.querySelectorAll('.fqo-box');
+
+fqo_boxes.forEach((fqo_box) => {
+  fqo_box.addEventListener('click', () => {
+    console.log(fqo_box);
     fqo_box.classList.toggle('active');
-})
+  });
+});
 // end fqo logic section 
