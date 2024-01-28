@@ -61,24 +61,24 @@
     <a href="index.html" style="width: 17%;">
       <img src="./assets/images/WoodUbend_logo.png" class="website-logo " style="height: 2rem;" alt="site-logo">
     </a>
-    <ul class="navlinks d-none d-md-flex flex-1 align-items-center gap-3">
+    <ul class="navlinks d-none d-lg-flex flex-1 align-items-center gap-3">
       <li class="navlink shope-link d-flex align-items-center gap-2"><a href="#">
         shope
         <svg style="height: 1rem;" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
       </a></li>
       <li class="navlink"><a href="about.html">about</a></li>
       <li class="navlink"><a href="#">how-to</a></li>
-      <li class="navlink"><a href="#">FQO</a></li>
-      <li class="navlink"><a href="#">gallery</a></li>
-      <li class="navlink"><a href="#">blog</a></li>
-      <li class="navlink"><a href="#">find-stock</a></li>
+      <li class="navlink"><a href="fqo.html">FQO</a></li>
+      <li class="navlink"><a href="product-category.html">gallery</a></li>
+      <li class="navlink"><a href="blog.html">blog</a></li>
+      <li class="navlink"><a href="my-account.html">find-stock</a></li>
       <li class="navlink text-decoration-underline fw-bold blode"><a href="#">become a stockist</a></li>
       <div class="position-relative">
-        <li class="navlink d-flex align-items-center gap-2"><a href="#">
+        <li class="navlink d-flex align-items-center gap-2 policie-link"><a href="#">
           policies
-          <svg style="height: 1rem;" class="e-font-icon-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
+          <svg style="height: 1rem;" class="e-font-icon-svg policie-svg e-fas-angle-down" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>
         </a></li>
-        <!-- <div class="position-absolute z-2 policie-tooltip p-3  d-grid gap-2" style="background-color: #e5dbd0; top: 1.7rem;width:15vw;">
+         <div class="position-absolute z-2 policie-tooltip p-3  d-grid gap-2" >
           <a class="policie-link" href="#">
             Shipping Policy
             </a>
@@ -91,16 +91,16 @@
                 <a class="policie-link" href="#">
                   Payment Policy
                   </a>
-        </div> -->
+        </div>
       </div>
     </ul>
     <div class="d-flex align-items-center gap-3">
-      <a href="#"><i class="bi bi-person-fill" style="font-size: 1.5rem;"></i></a>
-      <a href="#"><i class="bi bi-lock-fill" style="font-size: 1.5rem;"></i></a>
+      <a href="my-account.html"><i class="bi bi-person-fill" style="font-size: 1.5rem;"></i></a>
+      <a href="#" ><i class="bi bi-lock-fill" style="font-size: 1.5rem;"></i></a>
     </div>
     <div class="position-absolute big-tool-tip z-1 left-0 py-3 px-3 w-100" >
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-sm-6 col-lg-4">
           <h3 class="tooltip-titel">WoodUbend</h3>
           <ul class="d-grid mt-3">
             <li class="tooltip-link"><a href="#">Unit V, Scotch Park Trading Estate, Forge Lane, </a></li>
@@ -120,7 +120,7 @@
             <li class="tooltip-link"><a href="#">United Kingdom</a></li>
           </ul>
         </div>
-        <div class="col-md-6 d-grid gap-3 col-lg-4">
+        <div class="col-sm-6 d-grid gap-3 col-lg-4">
           <div>
             <h3 class="tooltip-titel">WoodUbend</h3>
             <ul class="d-grid mt-3">
@@ -149,7 +149,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 d-flex flex-column gap-3">
+        <div class="col-sm-6 col-lg-4 d-flex flex-column gap-3">
           <div>
             <h3 class="tooltip-titel">WoodUbend</h3>
             <ul class="d-grid mt-3">
@@ -171,6 +171,11 @@
         </div>
       </div>
     </div>
+    <div class="cart position-fixed top-0 right-0 cenetr-grid w-25 min-vh-100 bg-white p-3">
+      <p>No products in the basket.</p>
+      <i id="close-cart" class="bi bi-x-lg position-absolute" 
+      style="top: 1rem; right: 1.5rem; font-size:clamp(1.5rem ,4vw ,2.5rem ); color: #657A97;" ></i>
+    </div>
   </nav>
   <!-- start end navbar -->
 
@@ -178,8 +183,14 @@
 <!-- start hero section  -->
 <div id="carouselExampleSlidesOnly" class="carousel slide hero-conatiner" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item position-relative active">
       <img class="d-block w-100" src="./assets/images/carsoul-imges/Maneken03_web.jpg" alt="First slide">
+      <div class="ineer-content position-absolute top-50 translate-middle" style="left: 50%;">
+          <p>HEAT BENDABLE WOODEN MOULDINGS</p>
+          <p>POSH CHALK LUXURY COATINGS</p>
+          <p>ULTRA DURABLE STENCILS</p>
+          <p>DELUXE DECOUPAGE</p>
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="./assets/images/carsoul-imges/Maneken03_web.jpg"alt="Second slide">
@@ -411,7 +422,7 @@
 
 </div>
 <!-- start footer section  -->
-<footer class="min-vh-100 py-4 mt-4">
+<footer style="min-height:90vh;" class="py-4 mt-4">
   <div class="d-grid  justify-content-around">
     <div class="container row h-100  justify-content-center d-flex align-items-start gap-4 gap-sm-0">
       <ul class="col-lg-3 col-sm-6">
