@@ -79,3 +79,47 @@
     height: 400px; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
 }
+.checkout-button {
+    background-color: #D3CDBD;
+    color: #333333; 
+}
+.checkout-note {
+    width: 100%;
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f6f5f8;
+    color: #515151;
+    border-top: 3px solid #1e85be;
+    list-style: none outside;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    p {
+        font-size: 1rem;
+        font-weight: 700;
+        a {
+            font-weight: 400;
+        }
+    }
+}
+
+.stripe-card-element {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    outline: 0;
+}
+.place-order-button {
+    background-color: #D3CDBD;
+    color: #333333;
+}
+.cart-button {
+    color: var(--view-cart-button-hover-text-color,#fff);
+    background-color: var(--view-cart-button-hover-background-color,#69727d);
+    min-height: 3rem;
+    padding: 1rem;
+}

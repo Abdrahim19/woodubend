@@ -89,8 +89,6 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-block-start: 0.5rem;
-    margin-block-end: 1rem;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
@@ -219,6 +217,7 @@ line-height: normal;
   background-color: #e5dbd0;
   top:14.1vh;
   transform: translatex(-200%);
+  z-index: 10;
 }
 
 .big-tool-tip.active {
@@ -555,6 +554,47 @@ font-family: "JosefinSans" sans-serif;
     border-radius: 12px 12px 12px 12px;
     padding: .3575rem 1rem;
 }
+
+/* start label card  */
+.checkout-card {
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid #cfc8d8;
+  margin: 0;
+  list-style: none outside;
+  background-color: #cfc8d8;
+}
+.payment-box {
+  position: relative;
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0;
+  font-size: .92em;
+  border-radius: 2px;
+  line-height: 1.5;
+  background-color: #dcd7e3;
+  color: #515151;
+  
+}
+.payment-box::after {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border-width: 2px;
+  border-color:#dcd7e3 transparent transparent transparent;
+}
+.checkout-message {
+  min-height: 4em;
+  width: 100%;
+  line-height: 1.5;
+  display: block;
+  box-shadow: none;
+} 
+/* start label card  */
+
 
 
 
