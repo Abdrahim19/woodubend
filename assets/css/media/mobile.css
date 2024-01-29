@@ -25,11 +25,28 @@
     .loction-popup-img {
         max-height: 50rem !important;
     }
-    .site-logo {
-        flex: 1;
-    }
     .box-titel-section h3 {
         text-align: center;
+    }
+    .logo-container {
+        flex: 1;
+    }
+    .navlinks {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left:-50%;
+        width:50%;
+        height: 100vh;
+        background-color: white;
+        padding: 1rem;
+        .navlink {
+            padding-block: .5rem;
+        }
+    }
+    .navlinks.active {
+        left: 0;
+        transition: .5s;
     }
 }
 

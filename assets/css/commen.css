@@ -68,3 +68,10 @@
     margin-inline: auto;
     margin-top: 3rem;
 }
+.mobile-menu {
+    height: 2rem;
+}
+.flex-items {
+    display: flex;
+    align-items: center;
+}

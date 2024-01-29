@@ -11,6 +11,8 @@ const big_tool_tip =  document.querySelector('.big-tool-tip')
 const cart_button =  document.querySelector('.bi-lock-fill')
 const cart =  document.querySelector('.cart')
 const close_cart =  document.getElementById('close-cart')
+const mobile_menu =  document.getElementById('mobile-menu')
+const navlinks = document.querySelector('.navlinks')
 
 
 
@@ -55,11 +57,15 @@ cart_button.addEventListener('click' , () => {
 shadow.addEventListener('click' , () => {
     shadow.toggleAttribute('hidden');
     cart.classList.remove('active');
+    navlinks.classList.remove('active');
+
 })
 
 close_cart.addEventListener('click' , () => {
     cart.classList.remove('active');
     shadow.toggleAttribute('hidden');
+    navlinks.classList.remove('active');
+
 })
 
 
@@ -74,3 +80,8 @@ fqo_boxes.forEach((fqo_box) => {
   });
 });
 // end fqo logic section 
+
+mobile_menu.addEventListener('click' , () => {
+    navlinks.classList.add('active');
+    shadow.toggleAttribute('hidden');
+})
